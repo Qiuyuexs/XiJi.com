@@ -1,0 +1,881 @@
+#main {
+  width: 100%;
+  background: #F5F5F5;
+}
+#main .main-box {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+#main .main-box .heading-block {
+  width: 100%;
+  margin: 0 auto 50px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px #ddd;
+  padding-bottom: 50px;
+}
+#main .main-box .heading-block .heading-top {
+  width: 1200px;
+  margin: 0 auto;
+  height: 24px;
+  padding: 15px 0;
+  line-height: 24px;
+  font-size: 12px;
+}
+#main .main-box .heading-block .heading-top a {
+  color: #333;
+}
+#main .main-box .heading-block .heading-main {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 1200px;
+}
+#main .main-box .heading-block .heading-main .product-container {
+  width: 999px;
+  float: left;
+  position: relative;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side {
+  width: 452px;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .pro-brand {
+  text-align: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .pro-brand img {
+  width: 100px;
+  height: 50px;
+  vertical-align: bottom;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img {
+  width: 450px;
+  height: 450px;
+  line-height: 448px;
+  position: relative;
+  text-align: center;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img .small_pic {
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img .small_pic .mark {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #dba;
+  opacity: 0;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img .big_pic {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 470px;
+  top: 0px;
+  z-index: 5;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background: #0061AB;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img .big_pic img {
+  position: absolute;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img a {
+  display: inline-block;
+  line-height: 100%;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img a img {
+  max-width: 450px;
+  max-height: 450px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img a .zooms-handle {
+  width: 299px;
+  height: 299px;
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #b3d5ff;
+  opacity: .5;
+  cursor: move;
+  line-height: 1;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img .product-coupon {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  height: 70px;
+  background: url(../img/xiji-details/coupon_icon_03.png) top right no-repeat;
+  padding-right: 9px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-max-img .product-coupon .coupon-box {
+  background: url(../img/xiji-details/coupon_icon.png) 0 0 no-repeat;
+  padding: 0 0 0 75px;
+  margin-left: -10px;
+  max-width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 16px;
+  line-height: 73px;
+  zoom: 1;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  clear: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .flip {
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  height: 69px;
+  top: 1px;
+  position: absolute;
+  left: 0;
+  margin-top: 5px;
+  text-align: center;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .flip a {
+  color: #ccc;
+  cursor: default;
+  font-size: 18px;
+  margin-left: -1px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .flip a img {
+  width: 12px;
+  height: 22px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .next {
+  left: 100%;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .min-box {
+  width: 418px;
+  height: 74px;
+  margin: 0 18px;
+  padding-left: 5px;
+  padding-top: 5px;
+  overflow: hidden;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .min-box ul {
+  width: 162px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .min-box ul .active {
+  position: relative;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .min-box ul li {
+  margin: 0 8px;
+  padding: 0;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .min-box ul li .arrow {
+  border-bottom: 1px solid #EB5A41;
+  width: 65px;
+  height: 65px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-side .product-min-img .min-box ul li .arrow img {
+  max-width: 65px;
+  max-height: 65px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main {
+  width: 500px;
+  float: left;
+  margin-left: 25px;
+  line-height: 2;
+  position: relative;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .xj-icon span {
+  font-size: 14px;
+  color: #EB5A41;
+  padding: 0 10px;
+  border: 1px solid #EB5A41;
+  line-height: 21px;
+  height: 21px;
+  display: inline-block;
+  zoom: 1;
+  margin-right: 5px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-titles {
+  padding: 0px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-titles .product-titles-inner {
+  padding: 10px 0;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-titles .product-titles-inner h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.5;
+  height: auto !important;
+  max-height: 4.5em;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-brief-outbox {
+  position: relative;
+  height: 70px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-brief-outbox .product-brief {
+  border: 1px solid #eeeeee;
+  border-bottom: none;
+  border-image: initial;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 478px;
+  background-color: #fff;
+  height: 50px;
+  overflow: hidden;
+  white-space: normal;
+  padding: 10px 10px 0;
+  border-radius: 5px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-brief-outbox .brief-dot {
+  display: block;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  height: 10px;
+  width: 10px;
+  background: url(../img/xiji-details/brief_dot.png) 0 0 no-repeat;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-brief-outbox .brief-dot img {
+  width: 10px;
+  height: 10px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns {
+  color: #333;
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price {
+  background: #F0F0F0;
+  position: relative;
+  padding: 20px 0px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  height: 30px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .label {
+  line-height: 30px;
+  font-weight: bold;
+  width: 75px;
+  padding: 0 0 0 20px;
+  font-size: 14px;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .xj-detail-price {
+  margin-left: 95px;
+  margin-right: 20px;
+  height: inherit;
+  display: block;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .xj-detail-price .price {
+  color: #28282E;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .xj-detail-price .price .action-price {
+  font-size: 29px;
+  color: #EB5A41;
+  line-height: 1.2;
+  text-decoration: none;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .xj-detail-price .minor {
+  color: #787878;
+  font-size: 12px;
+  line-height: 2;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .xj-detail-price .minor del {
+  text-decoration: line-through;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .right-box {
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .right-box .tax-box {
+  display: inline-block;
+  zoom: 1;
+  overflow: visible;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .right-box .tax-box .tab-box-label {
+  cursor: pointer;
+  color: #0061ab;
+  background: url(../img/xiji-details/pro_icon07.png) 0 0 no-repeat;
+  padding-left: 18px;
+  line-height: 14px;
+  font-size: 12px;
+  position: relative;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .right-box .tax-box .tab-box-label .tab-box-detail {
+  display: block;
+  color: #666;
+  width: 186px;
+  line-height: 1.5;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .right-box .tax-box .tab-box-label .tab-box-detail .tab-box-detail-inner {
+  position: relative;
+  width: 170px;
+  padding: 8px;
+  background-color: #fff;
+  -webkit-filter: drop-shadow(0px 0px 5px #cdcdcd);
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-product-price .right-box .tax-box .tab-box-label .tab-box-detail .tab-box-detail-inner a {
+  color: #0061AB;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion {
+  line-height: 40px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion .label {
+  display: inline-block;
+  float: left;
+  color: #000;
+  font-weight: bold;
+  width: 75px;
+  padding: 0 0 0 20px;
+  font-size: 14px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion .detail {
+  display: block;
+  margin-left: 95px;
+  height: auto;
+  margin-right: 20px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion .detail .good-tag-block {
+  line-height: 23px;
+  padding-top: 5px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion .detail .good-tag-block .xj_prom_wrapper {
+  position: relative;
+  display: inline-block;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion .detail .good-tag-block .xj_prom_wrapper .xj_prom_cut {
+  white-space: nowrap;
+  margin-right: 3px;
+  line-height: 30px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-concerns ul .xj-promotion .detail .good-tag-block .xj_prom_wrapper .xj_prom_cut .icon {
+  background: url(../img/xiji-details/pro_icon02.png) top left no-repeat;
+  color: #fff;
+  font-size: 12px;
+  height: 23px;
+  line-height: 23px;
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-params {
+  margin-bottom: 10px;
+  line-height: 2;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-params table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-params table td {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-params table .label {
+  width: 75px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-params table a {
+  color: #28282E;
+  text-decoration: underline;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-params table img {
+  width: 30px;
+  height: 20px;
+  vertical-align: -4px;
+  display: inline-block;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-weight01 ul li {
+  font-size: 14px;
+  height: 42px;
+  line-height: 42px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-weight01 ul li .label {
+  width: 75px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+  margin-top: 0;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .spec-item {
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .item-label {
+  margin-right: 0;
+  line-height: 43px;
+  width: 75px;
+  font-size: 14px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .item-content {
+  margin-left: 95px;
+  display: block;
+  height: 24px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .spec-attr {
+  margin: 5px;
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f6f6f6;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .spec-attr a {
+  line-height: 27px;
+  display: block;
+  border: 1px solid #fff;
+  color: #111;
+  font-size: 12px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .spec-attr span {
+  padding: 0 6px;
+  line-height: 27px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .selected {
+  border: 1px solid #eb5a41;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .selected a {
+  border: 1px solid #EB5A41;
+  position: relative;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-spec .selected a i {
+  background: url(../img/xiji-details/item_selected.gif) no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 11px;
+  height: 11px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-quantity {
+  margin-bottom: 0px;
+  border-bottom: 1px dotted #A3A3A3;
+  height: 43px;
+  line-height: 43px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-quantity .label {
+  width: 75px;
+  font-size: 14px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-quantity .item-content {
+  display: inline;
+  line-height: 43px;
+  margin-left: 0;
+  height: 24px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-quantity .item-content .p-quantity {
+  display: inline-block;
+  vertical-align: top;
+  width: 74px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-quantity .item-content .p-quantity a {
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  overflow: hidden;
+  vertical-align: middle;
+  border: 1px solid #a9a9a9;
+  text-align: center;
+  font: 14px/22px simsun, serif;
+  background-color: #fff;
+  color: #8b8b8b;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-quantity .item-content .p-quantity .action-quantity-input {
+  background-color: #fff;
+  width: 28px;
+  height: 21px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  border: 1px solid #A9A9A9;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  float: left;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .notice-txt-under {
+  color: #EB5A41;
+  border-bottom: 1px dotted #999;
+  padding: 10px 10px 10px 20px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .notice-txt-under p {
+  font-size: 14px;
+  line-height: 16px;
+  background: url(../img/xiji-details/pro_icon08.png) top left no-repeat;
+  padding-left: 20px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .notice-txt-under01 {
+  list-style: disc;
+  margin-top: 8px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .notice-txt-under01 li {
+  float: left;
+  margin-left: 40px;
+  color: #EB5A41;
+  display: list-item;
+  list-style: inherit;
+  font-size: 12px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .notice-txt-under01 li span {
+  color: #666;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .notice-txt-under01 .hide {
+  display: none;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-action input {
+  width: 146px;
+  height: 54px;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-action .btn-import {
+  background-color: #EB5A41;
+  margin: 0 3px 0 0;
+  color: #fff;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-action .btn-import:hover {
+  background-color: #c64736;
+}
+#main .main-box .heading-block .heading-main .product-container .product-main .product-buy .product-action .product-buy-action .btn-cart {
+  background-color: #fff;
+  width: 144px;
+  height: 52px;
+  border: 1px solid #EB5A41;
+  color: #EB5A41;
+}
+#main .main-box .heading-block .heading-main .product-tags-block {
+  width: 201px;
+  float: right;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul {
+  width: 210px;
+  margin-right: -9px;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul li {
+  width: 61px;
+  padding-top: 60px;
+  height: 61px;
+  float: left;
+  margin-right: 9px;
+  text-align: center;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul li span {
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1.0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  color: #333;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul li span:last-child {
+  color: #666;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul .buy-num {
+  background: url(../img/xiji-details/pro_tag_bg01.png) 0 0 no-repeat;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul .favorite-num {
+  background: url(../img/xiji-details/pro_tag_bg02.png) 0 0 no-repeat;
+}
+#main .main-box .heading-block .heading-main .product-tags-block ul .browse-num {
+  background: url(../img/xiji-details/pro_tag_bg03.png) 0 0 no-repeat;
+}
+#main .main-box .heading-block .contact-service-btn {
+  height: 22px;
+  width: 76px;
+  display: inline-block;
+  position: absolute;
+  bottom: 18px;
+  right: 93px;
+}
+#main .main-box .heading-block .contact-service-btn a {
+  height: 22px;
+  display: block;
+  color: #666;
+  background: url(../img/xiji-details/pro_icon04.png) 0 0 no-repeat;
+  font-size: 12px;
+  line-height: 22px;
+  padding-left: 28px;
+  cursor: pointer;
+}
+#main .main-box .heading-block .share-recommend {
+  position: absolute;
+  bottom: 18px;
+  right: 13px;
+  width: 62px;
+  height: 23px;
+}
+#main .main-box .heading-block .share-recommend a {
+  width: 62px;
+  height: 23px;
+  padding-left: 25px;
+  display: block;
+  color: #666;
+  background: url(../img/xiji-details/pro_icon03.png) 0 0 no-repeat;
+  font-size: 12px;
+  line-height: 22px;
+}
+#main .main-box .product-content-block {
+  width: 1200px;
+  margin: 0 auto;
+}
+#main .main-box .product-content-block .product-section-left {
+  width: 280px;
+  float: left;
+}
+#main .main-box .product-content-block .product-section-left .xj-pro-list {
+  padding: 0 25px;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #fff;
+}
+#main .main-box .product-content-block .product-section-left .xj-pro-list ul {
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: -2px;
+}
+#main .main-box .product-content-block .product-section-left .xj-pro-list ul li {
+  cursor: pointer;
+  width: 115px;
+  color: #787878;
+  height: 47px;
+  float: left;
+  text-align: center;
+  margin: 0;
+}
+#main .main-box .product-content-block .product-section-left .xj-pro-list ul li h2 {
+  font-size: 14px;
+  height: 47px;
+  line-height: 47px;
+  font-weight: normal;
+  text-align: center;
+}
+#main .main-box .product-content-block .product-section-left .xj-pro-list ul .tab_link01 {
+  border-bottom: 1px solid #EB5A41;
+  background: url(../img/xiji-details/arrow_icon.png) center 42px no-repeat;
+}
+#main .main-box .product-content-block .product-section-left .xj-pro-list ul .tab_link01 h2 {
+  color: #EB5A41;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm {
+  position: relative;
+  background-color: #fff;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery {
+  padding-bottom: 20px;
+  width: 280px;
+  background-color: #fff;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li {
+  width: 190px;
+  margin: 0 auto 20px;
+  padding-top: 15px;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li .img-box img {
+  width: 190px;
+  height: 190px;
+  border: 0;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li .cont-tit-box {
+  margin: 10px 0;
+  overflow: hidden;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li .cont-tit-box a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li .cont-tit-box a img {
+  width: 25px;
+  height: 16px;
+  vertical-align: -4px;
+  margin-right: 3px;
+  border: 0;
+  display: inline-block;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li .price-box {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+}
+#main .main-box .product-content-block .product-section-left .pro-box-btm .xj-pro-gallery ul li .price-box span {
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+  text-decoration: line-through;
+}
+#main .main-box .product-content-block .product-section-right {
+  width: 900px;
+  float: right;
+}
+#main .main-box .product-content-block .product-section-right .product_section {
+  width: 898px;
+  margin: 0;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle {
+  margin-bottom: 0;
+  background-color: #fff;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle ul {
+  border-bottom: 1px solid #e8e8e8;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle ul .tabBtns {
+  float: left;
+  margin-bottom: -1px;
+  margin-right: 0px;
+  padding: 0;
+  position: relative;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle ul .tabBtns a {
+  display: block;
+  line-height: 44px;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 23px;
+  color: #666;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle ul .actived {
+  border-bottom: 1px solid #EB5A41;
+  background-color: #fff;
+  background: url(../img/xiji-details/arrow_icon.png) center 39px no-repeat;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle ul .actived a {
+  color: #EB5A41;
+}
+#main .main-box .product-content-block .product-section-right .product_section .tabStyle ul .icon-btm {
+  display: none;
+  background: url(../img/xiji-details/icon_btm_150427.gif) top left no-repeat;
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -4px;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section {
+  overflow: hidden;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock h2 {
+  height: 90px;
+  width: 350px;
+  margin: 0 auto;
+  background: url(../img/xiji-details/tit_bg.png) left center repeat-x;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock h2 span {
+  width: 130px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 90px;
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  display: block;
+  background-color: #fff;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content {
+  width: 790px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0px;
+  min-height: 280px;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content h3 {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 40px 0 25px 0;
+  font-weight: bold;
+  padding-left: 15px;
+  border-left: 3px solid #EB5A41;
+  color: #28282E;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content .info {
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #28282E;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content .info .table-info {
+  width: 100%;
+  border-top: 1px solid #efefef;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content .info .table-info th {
+  text-align: left;
+  padding: 8px 18px;
+  font-weight: bold;
+  width: 134px;
+  background: #F9F9F9;
+  border-right: 1px solid #EFEFEF;
+  border-bottom: 1px solid #EFEFEF;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content .info .table-info td {
+  text-align: left;
+  padding: 8px 18px;
+  border-bottom: 1px solid #EFEFEF;
+  color: #787878;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content img {
+  max-width: 790px;
+}
+#main .main-box .product-content-block .product-section-right .product_section .xj-product_section-inner .product-section .articleBlock .detail-content p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 18px 0;
+  color: #28282E;
+}
+
+/*# sourceMappingURL=xiji_details.css.map */

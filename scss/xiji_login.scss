@@ -1,0 +1,178 @@
+@import "xiji-prepare";
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #f5f5f5;
+}
+#box{
+    width: 540px;
+    height: 750px;
+    background: #fff;
+    margin: 50px auto;
+    border: 1px solid #d8d8d8;
+    /*------------logo--------------*/
+        .logo{
+            overflow: hidden;
+        }
+    /*------------登录--------------*/
+        .login{
+            width: 350px;
+            height: 496px;
+            margin: 46px auto;
+            .out{
+                margin-bottom: 30px;
+                position: relative;
+                height: 50px;
+            }
+
+            /*------------用户名------------*/
+            .name{
+                width: 316px;
+                height: 45px;
+                padding: 1px 15px;
+                line-height: 45px;
+                border:1px solid #e4e4e4;
+                
+            }
+            .label{
+                position: absolute;
+                left: 15px;
+                top: 19px;
+                display: block;
+                z-index: 1;
+                text-align: left;
+                color: #a3a3a3;
+                font-size: 12px;
+                line-height: 12px;
+//                  top: -7px;
+//                  color: #EB5A41;
+            }
+        /*-----------密码---------------*/
+            .password{
+                @extend .name;
+                
+            }
+            .pwd{
+                @extend .label;
+            }
+            .remember-forget{
+                margin: 28px 0;
+                .checkbox1{
+                    width: 15px;
+                    height: 15px;
+                    display: inline-block;
+                    background: url(../img/login-img/sprite_161129.png) no-repeat -76px -260px;
+                   
+                }
+                .rememberLogin{
+                    font-size: 12px;
+                    margin-right: 15px;
+                }
+                #remember{
+                    text-align: center;
+                    display: inline-block;
+                    background-color: #f47518;
+                    margin: 3px 8px;
+                    display: none;
+                    text-transform: none;
+                    text-indent: 0;
+                    text-shadow: none;
+                }
+                .twoAutoLogin{
+                    @extend .rememberLogin;
+                }
+                .checkbox2{
+                    @extend .checkbox1;
+                }
+                #autoLogin{
+                    @extend #remember;
+                }
+                .forget{
+                    width: 68px;
+                    height: 14px;
+                    display: inline-block;
+                    float: right;
+                    & a{
+                        font-size: 12px;
+                        color: #0563c3;
+                    }
+                    & img{
+                        width: 13px;
+                        height: 13px;
+                        display: inline-block;
+                    }
+                }
+            }
+            
+        /*-------------登录---------------*/
+            .sign{
+                width: 100%;
+                height: 45px;
+                background: #eb5a41;
+                border: 0;
+                color: #fff;
+                font-size: 20px;
+                line-height: 45px;
+                text-align: center;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .third-regist{
+                @extend .sign;
+                display: block;
+                border: 1px solid #EB5A41;
+                background: #fff;
+                color: #EB5A41;
+                width: 348px;
+                height: 43px;
+                margin-top: 30px;
+            }
+            .line{
+                margin: 40px 0;
+                height: 11px;
+                border-bottom: 1px solid #cdcdcd;
+                text-align: center;
+                .third-login{
+                color: #666;
+                font-size: 14px;
+                line-height: 1.0;
+                padding: 0 10px;
+                background-color: #fff;
+                }
+            }
+            .webo{
+                a{
+                    width: 110px;
+                    display: inline-block;
+                    text-align: center;
+                    background: url(../img/login-img/webo_icon.png) no-repeat center top;
+                    padding-top: 55px;
+                    color: #666;
+                    display: inline-block; 
+                    font-size: 12px;
+                }
+                
+            }
+            .qq{
+                @extend .webo;
+                a{
+                    background: url(../img/login-img/qq_icon.png) no-repeat center top;
+                }
+                
+            }
+            .weixin{
+                @extend .qq;
+                a{
+                    background: url(../img/login-img/weixin_icon.png) no-repeat center top;
+                }
+                
+            }
+        }
+}
+#footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+ 

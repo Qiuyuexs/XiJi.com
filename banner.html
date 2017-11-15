@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<style>
+			li,ol,ul{
+				list-style: none;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#banner{
+				width: 1200px;
+				height: 390px;
+				margin: 30px auto;
+				position: relative;
+				overflow: hidden;
+			}
+			.banner-picture{
+				
+			}
+			.bannerImg{
+	        	position:relative;
+	        }
+	        ul li{
+	        	position:absolute;
+	        	top:0;
+	        	left:0;
+	        }
+	        ol{
+	            position: absolute;
+	            right: 200px;
+	            bottom: 10px;
+	            width: 190px;
+	        }
+	        ol li{
+	            float: left;
+	            width: 20px;
+	            height: 20px;
+	            margin: 0 3px;
+	            text-align: center;
+	            border-radius: 50%;
+	            cursor: pointer;
+	            background-color: #C9C9C9;
+	        }
+	        ol li.current{
+	            background-color: #555555;
+	        }
+	        .block{
+	        	display: block;
+	        }
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+			<div class="banner-picture">
+				<a href="javascript:;" id="arr-left"></a>
+				<a href="javascript:;" id="arr-right"></a>
+				<ul class="bannerImg">
+					
+				</ul>
+			</div>
+			<ol class="slide" style="z-index: 10;">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+			</ol>
+		</div>
+		
+	</body>
+</html>
+<script>
+	$.getJSON("json/bannerImg.json",function(data){
+		$.each(data, function(index , value) {
+			$(".bannerImg").append(`<li><a href='#'><img src=${ value.img }/></a></li>`)
+		});
+		$(".banner-picture,#arr-left,#arr-right,.slide li").mouseenter(function() {
+			$("#arr-left,#arr-right").css("opacity", "1");
+			clearInterval($timer);
+		})
+		$(".banner-picture,.slide li").mouseleave(function() {
+			$("#arr-left,#arr-right").css("opacity", "0");
+			$.timer();
+		})
+		var $uLis = $("#banner .bannerImg li");
+		var $oLis = $("#banner .slide li");
+		var $index = 0;
+		$oLis.mouseenter(function(){
+			clearInterval($timer);
+			$oLis.click(function(){
+				$index = $(this).index();
+				$uLis.eq($index)
+					 .fadeIn(1000)
+					 .siblings()
+					 .fadeOut(1000);
+				$(this).addClass("current")
+					   .siblings()
+					   .removeClass("current");
+			})
+		}).mouseleave(function(){
+			$.timer();
+		})
+		$("#arr-right").click(function() {
+				$index++;
+				if($index >= data.length) {
+					$index = 0;
+				}
+				$oLis.eq($index)
+					 .addClass("current")
+					 .siblings()
+					 .removeClass("current");
+				$uLis.eq($index)
+					 .fadeIn(1000)
+					 .siblings()
+					 .fadeOut(1000);
+			})
+			$("#arr-left").click(function() {
+				$index--;
+				if($index < 0) {
+					$index = 5;
+				}
+				$oLis.eq($index)
+					 .addClass("current")
+					 .siblings()
+					 .removeClass("current");
+				$uLis.eq($index)
+					 .fadeIn(1000)
+					 .siblings()
+					 .fadeOut(1000);
+			})
+		$.extend({
+			timer : function(){
+				$timer = setInterval(function(){
+					$index++;
+					if($index == 6){
+						$index = 0;
+					}
+					$oLis.eq($index)
+						 .addClass("current")
+						 .siblings()
+						 .removeClass("current");
+					$uLis.eq($index)
+						 .fadeIn(1000)
+						 .siblings()
+						 .fadeOut(1000);
+				},2000)
+			}
+		});
+		
+		$.timer();
+	})
+	
+
+</script>

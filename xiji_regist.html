@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册_西集网xiji.com</title>
+		<link rel="stylesheet" href="css/xiji_regist.css" />
+	</head>
+	<body>
+		<div id="box">
+			<div class="logo">
+				<img src="img/login-img/passport_bg_161124.png" />
+			</div>
+			<div class="regist">
+				<div class="userSelect">
+					<label for="" class="countryLabel">选择所在国家</label>
+					<div class="setpop-blank">
+						<div class="side-box">
+							<i class="down"></i>
+						</div>
+						<span title="China">
+							<i class="ch"></i>
+							China
+						</span>
+						<div class="options-wrapper">
+							<div style="margin: 0px;height: 0;overflow: hidden;">
+								<div class="select-options">
+									<ul style="height: 155px;overflow-x: hidden;overflow-y: auto;">
+										<li>
+											<i class="ch"></i>
+											China
+										</li>
+										<li>
+											<i class="jp"></i>
+											Japan
+										</li>
+										<li>
+											<i class="ca"></i>
+											Canada
+										</li>
+										<li>
+											<i class="hk"></i>
+											Hong Kong
+										</li>
+										<li>
+											<i class="mo"></i>
+											Macao
+										</li>
+										<li>
+											<i class="tw"></i>
+											TaiWan
+										</li>
+										<li>
+											<i class="us"></i>
+											USA
+										</li>
+										<li>
+											<i class="au"></i>
+											Australia
+										</li>
+										<li>
+											<i class="nz"></i>
+											New Zealand
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<select class="country-list" name="location_country" id="country_list">
+				        <option data-icon="ch" value="CH">China</option>
+				        <option data-icon="jp" value="JP">Japan</option>
+				        <option data-icon="ca" value="CA">Canada</option>
+				        <option data-icon="hk" value="HK">Hong Kong</option>
+				        <option data-icon="mo" value="MO">Macao</option>
+				        <option data-icon="tw" value="TW">TaiWan</option>
+				        <option data-icon="us" value="US">USA</option>
+				        <option data-icon="au" value="AU">Australia</option>
+				        <option data-icon="nz" value="NZ">New Zealand</option>
+				    </select>
+				</div>
+
+				<form action="" method="post">
+					<ul>
+						<!--手机号-->
+						<li class="form-item">
+							<input class="number" type="text" name="number" placeholder="请输入手机号"/>
+							<!--<div class="form-label">请输入手机号</div>-->
+						</li>
+						<!--验证码-->
+						<li class="form-item">
+							<input type="text" class="yanzheng" placeholder="填写验证码"/>
+							<!--<div class="form-label">填写验证码</div>-->
+							<img src=""  alt=""/>
+							<a href="#">换一个</a>
+						</li>
+						<!--短信验证码-->
+						<li class="form-item">
+							<input type="text" class="duanxin" placeholder="输入短信验证码"/>
+							<!--<div class="form-label">输入短信验证码</div>-->
+							<a href="#">获取短信验证码</a>
+						</li>
+						<!--密码-->
+						<li class="form-item">
+							<input class="password" type="text" name="password" placeholder="由6-20个字母、数字和符号至少两种的组合"/>
+							<!--<div class="pwd" style="position: absolute;">由6-20个字母、数字和符号至少两种的组合</div>-->
+						</li>
+						<!--同意-->
+						<li class="form-item01">
+					        <input type="checkbox" class="x-check" id="">
+					        <label for="" class="form-sub-label" > 我已阅读并同意 <a href="#" target="_blank">注册协议</a></label>
+					    </li>
+					    <!--注册-->
+					    <li class="form-item-normal"> 
+					        <input type="submit" value="注    册" class="sub-regist"/>
+					        已经有会员帐号请
+					        <a href="javascript:;">直接登录</a>
+					    </li>
+					</ul>
+					
+				</form>
+			</div>
+		</div>
+		<div id="footer">Copyright &copy; 2017 XIJI Hongkong Co., Ltd xiji.com 保留一切权利。</div>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录-西集网xiji.com</title>
+		<link rel="stylesheet" href="css/xiji_login.css" />
+	</head>
+	<body>
+		<div id="box">
+			<div class="logo">
+				<img src="img/login-img/passport_bg_161124.png" />
+			</div>
+			<div class="login">
+				<form action="" method="post">
+					<ul>
+						<!--用户名-->
+						<li class="out">
+								<span style="display: inline-block; position: relative;">
+									<input class="name" type="text" name="name" placeholder="请输入手机号  用户名  邮箱"/>
+							<!--		<div class="label">请输入手机号&nbsp;/&nbsp;用户名&nbsp;/&nbsp;邮箱</div>-->
+								</span>
+						</li>
+						<!--密码-->
+						<li>
+							<span style="display: inline-block; position: relative;">
+								<input class="password" type="text" name="password" placeholder="由6-20个字母、数字和符号至少两种的组合"/>
+							<!--	<div class="pwd" style="position: absolute;">由6-20个字母、数字和符号至少两种的组合</div>-->
+							</span>
+						</li>
+						<!--记住账号，自动登录-->
+						<li class="remember-forget">
+							<span class="checkbox1">
+								<input type="checkbox" name="remember" id="remember" checked="checked"/>
+							</span>
+							
+							<label for="remember" class="rememberLogin">记住账号</label>
+							<span class="checkbox2">
+								<input type="checkbox" name="autoLogin" id="autoLogin" checked="checked"/>
+							</span>
+							
+							<label for="autoLogin" class="twoAutoLogin">两周内自动登录</label>
+							<span class="forget">
+								<img src="img/login-img/pro_icon07.png" />
+								<a href="#">忘记密码</a>
+							</span>
+						</li>
+						<li>
+							<button class="sign" type="submit">登录</button>
+							<a href="xiji_regist.html" class="third-regist">30秒注册</a>
+						</li>
+						<li>
+							<div class="line">
+								<span class="third-login">第三方账号登录</span>
+							</div>
+							<div>
+								<span class="webo">
+									<a href="#">微博</a>
+								</span>
+								<span class="qq">
+									<a href="#">QQ</a>
+								</span>
+								<span class="weixin">
+									<a href="#">微信</a>
+								</span>
+							</div>
+						</li>
+					</ul>
+					
+				</form>
+			</div>
+		</div>
+		<div id="footer">Copyright &copy; 2017 XIJI Hongkong Co., Ltd xiji.com 保留一切权利。</div>
+		<script>
+			//var Label = document.getElementsByClassName("")
+		</script>
+	</body>
+</html>

@@ -1,0 +1,726 @@
+@import "xiji-prepare";
+/*xiji-top*/
+$total-width : 1200px;
+/*群组样式  外围样式width：100%；background：#f5f5f5*/
+body,html{
+    width: 100%
+}
+#logo,#nav,#banner,#activity,#together,#product,#fine-goods,#excellent-select-project,#public-goods,#guessyoulike,#subscibe,#helper,#footer{
+    width: 100%;
+    background: #f5f5f5;
+}
+/*xiji-top*/
+#xiji-top{
+    width: $total-width;
+    height: 30px;
+    margin: auto;
+    .top-location{
+        float: left;
+        width: 168px;
+        height: 30px;
+        .send{
+            font-size: 12px;
+            color: #000;
+            line-height: 12px;
+            float: left;
+            margin-top: 9px;
+        }
+        .china{
+            display: inline-block;
+            width: 20px;
+            height: 13px;
+            float: left;
+            margin-top: 8px;
+            background: url(../img/xiji-files/pop_setting_bg01_170113.png) no-repeat left -79px;
+        }
+        .area{
+            background: url(../img/xiji-files/top_sel_bg.jpg) no-repeat left;
+            display: inline-block;
+            width: 92px;
+            height: 10px;
+            float: left;
+            margin-left: 8px;
+            margin-top: 10px;
+            a{
+                font-size: 12px;
+                color: #28282e;
+                line-height: 12px;
+                float: left;
+                &:first-child{
+                    margin-left: 7px;
+                }
+                &:last-child{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    ul{
+        float: right;
+        li{
+            float: left;
+            font-size: 12px;
+            a{
+                color: #787878;
+                float: left;
+                padding: 7px 15px;
+                &:hover{
+                    color:#28282e;
+                }
+            }
+            span{
+                float: left;
+                color: #e8e4e8;
+                margin-top: 7px;
+            }
+            
+            &:last-child{
+                .down-arrows{
+                    margin-right: 20px;
+                    display: inline-block;
+                    width: 50px;
+                    position: relative;
+                    background: url(../img/xiji-files/top_service_arr.png) no-repeat right;
+                }
+                .help{
+                    display: none;
+                    width: 100px;
+                    height: 52px;
+                    position: absolute;
+                    background: #fff;
+                    z-index: 6;
+                    top: 32px;
+                    li{
+                        height: 25px;
+                        width: 100px;
+                        border:1px solid #d9d8d8;
+                        border-top:0;
+                        &:hover{
+                            background: #ccc;
+                        }
+                        a{
+                            &:last-child{
+                                display: inline-block;
+                                color: #28282e;
+                                font-size: 12px;
+                                line-height: 12px;
+                                padding: 0 0;
+                                /*padding:0 17px 7px 8px;*/
+                                padding: 7px 18px 0 0;
+                                float: right;
+                                margin:0;
+                            }
+                        }
+                        .online-service{
+                            display: inline-block;
+                            float: left;
+                            height: 17px;
+                            width: 17px;
+                            padding: 0 0 ;
+                            margin: 4px 0 0 10px;
+                            background: url(../img/xiji-files/top_service_icon.png) no-repeat left -4px;
+                        }
+                        .help-center{
+                            @extend .online-service;
+                            height: 11px;
+                            margin: 7px 0 0 10px;
+                            background: url(../img/xiji-files/top_service_icon.png) no-repeat left -32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+/*logo*/
+#logo{
+    height: 145px;
+    .logo-blank{
+        height: 30px;
+        margin: auto;
+        border-top: 1px solid #e4e4e4;
+    }
+    .logo-form{
+        width: $total-width;
+        height: 79px;
+        margin:auto;
+        background: #f5f5f5;
+        h1{
+            width: 214px;
+            height: 60px;
+            float: left;
+            margin:10px 0 0 20px;
+        }
+        form{
+            padding-top: 10px;
+            position: relative;
+            input{
+                &:first-child{
+                    width:440px;
+                    height: 44px;
+                    border:1px solid #eb5a41;
+                    padding-left: 5px;
+                    float: left;
+                    margin-left: 136px;
+                }
+                &:last-child{
+                    width: 60px;
+                    height: 46px;
+                    background: #eb5a41 url(../img/xiji-files/search_icon.png) no-repeat center;
+                    border:0;
+                    float: left;
+                    cursor: pointer;
+                }
+            }
+        }
+        .top-search{
+            position: absolute;
+            top: 120px;
+            left: 393px;
+            display: block;
+            a{
+                font-size: 12px;
+                line-height: 12px;
+                color: #999;
+                padding: 10px 9px;
+                &:hover{
+                    text-decoration:underline;
+                }
+            }
+        }
+        .logo-login-regist{
+            padding:11px 0 0 61px;
+            float: left;
+            position: relative; 
+            img{
+                float: left;
+                z-index: 10;
+                position: relative;
+            }
+            .logo-login-regist-a{
+                width: 106px;
+                height: 33px;
+                position: relative;
+                z-index: 10;
+                a{
+                    float: left;
+                    font-size: 13px;
+                    line-height: 12px;
+                    margin:0 7px;
+                    color: #000;
+                    display: inline-block;
+                    padding-top: 6px;
+                }
+                
+            }
+            .login-frame{
+                width: 160px;
+                height: 162px;
+                background: #fff;
+                text-align: center;
+                border:1px solid #c9c9c9;
+                position: absolute;
+                left: 50px;
+                top: 0px;
+                z-index:5;
+                display: none;
+                a{
+                    display:inline-block;
+                    width:106px;
+                    height: 33px;
+                    color: #fff;
+                    font-size: 14px;
+                    float: none;
+                    &:first-of-type{
+                        background: #eb5a41;
+                        text-align: center;
+                        line-height: 33px;
+                        border-radius: 5px;
+                        margin-top: 64px;
+                        float: none;
+                        padding-top: 0;
+                    }
+                    &:last-of-type{
+                        color: #eb5a41;
+                        padding-top: 0;
+                        line-height: 14px;
+                        padding-left: 35px;
+                        i{
+                            display: inline-block;
+                            float: left;
+                        }
+                        img{
+                            display: inline-block;
+                            float: left;
+                        }
+                    }
+                }
+                p{
+                    font-size: 12px;
+                    color: #666;
+                    line-height:12px;
+                    margin:13px 0;
+                }
+            }
+        }
+        .shopping-cart{
+            width: 154px;
+            float: right;
+            height: 45px;
+            padding-top: 2px;
+            .shopping-cart-contain{
+                width: 87px;
+                height: 32px;
+                float: right;
+                a{
+                    position: relative;
+                    &:first-of-type{
+                        img{
+                            float:left;
+                            padding-top: 9px;
+                        }
+                        span{
+                            display: block;
+                            float: left;
+                            width: 25px;
+                            height: 25px;
+                            background: #eb5a41;
+                            border-radius: 12.5px;
+                            position: absolute;
+                            left: -9px;
+                            top: 0px;
+                            text-align: center;
+                            color: #fff;
+                            line-height: 25px;
+                        }
+                    }
+                    &:last-of-type{
+                        font-size: 12px;
+                        color: #000;
+                        line-height: 12px;
+                        padding-top: 14px;
+                        float: right;
+
+                    };
+                }
+            }
+        }
+        
+    }
+    .logo-bottom-blank{
+        @extend .logo-blank;
+        height: 36px;
+        border-top:0;
+    }
+}
+/*nav*/
+#nav{
+    height: 37px;
+    border-bottom:2px solid #212121;
+    .nav-con{
+        width: $total-width;
+        height: 37px;
+        margin:0 auto;
+        .nav-left{
+            position: relative;
+            width: 320px;
+            z-index: 1;
+            float: left;
+            .all-classify{
+                span{
+                    width: 270px;
+                    height: 37px;
+                    color: #000;
+                    padding-left: 50px;
+                    line-height: 37px;
+                    font-size: 16px;
+                    float: left;
+                    background: url(../img/xiji-files/catagory_tit_bg.png) no-repeat 18px 0;
+                }
+                
+            }
+            .all-classify-box{
+                height: 390px;
+                width: 320px;
+                border: none;
+                position: absolute;
+                left: 0;
+                top: 39px;
+                z-index: 1000;
+                .all-classify_ul{
+                    height: 390px;
+                    background: #333;
+                    width: 320px;
+                    border: none;
+                    .all-classify_li{
+                        height: 29px;
+                        padding:9px 20px;
+                        text-align: left;
+                        &:hover{
+                            background: #000;
+                            color: #fff;
+                            .all-classify-menu{
+                                .all-classify-item{
+                                    li{
+                                        a{
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .all-classify-menu{
+                            a{
+                                display: block;
+                                float: left;
+                                color: #fff;
+                                width: 70px;
+                                height: 30px;
+                                line-height: 30px;
+                                padding: 0;
+                                font-size: 14px;
+                            }
+                            .all-classify-item{
+                                width: 210px;
+                                height: 30px;
+                                overflow: hidden;
+                                li{
+                                    height: 30px;
+                                    line-height: 30px;
+                                    float: left;
+                                    white-space: nowrap;
+                                    color: #999;
+                                    a{
+                                        color: #999;
+                                        vertical-align: -1px;
+                                        font-size: 12px;
+                                        font-weight: normal;
+                                        padding: 0;
+                                        width: auto;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .sub-box {
+                            display: none;
+                            width: 878px;
+                            left: 320px;
+                            top: 0;
+                            min-height: 388px;
+                            padding: 0;
+                            font-size: 12px;
+                            position: absolute;
+                            background: #fff;
+                            z-index: 11;
+                            overflow: hidden;
+                            border: 1px solid #f0f0f0;
+                            .sub-item-box{
+                                width: 640px;
+                                padding: 10px 0;
+                                float: left;
+                                font-size: 12px;
+                                dl{
+                                    width: 580px;
+                                    padding: 12px 0;
+                                    margin: 0 40px 0 20px;
+                                    border-bottom: 1px dotted #e4e4e4;
+                                    dt{
+                                        color: #333;
+                                        font-size: 14px;
+                                        font-weight: bold;
+                                        padding: 0;
+                                        border-bottom: none;
+                                        width: 71px;
+                                        float: left;
+                                        text-align: right;
+                                        line-height: 21px;
+                                        a{
+                                            color: #333333;
+                                            font-size: 14px;
+                                            vertical-align: -1px;
+                                            padding: 0;
+                                            &:hover{
+                                                color: #eb5a41;
+                                            }
+                                        }
+                                        span{
+                                            color: #333333;
+                                            font-size: 14px;
+                                            font-weight: bold;
+                                            text-align: right;
+                                        }
+                                    }
+                                    dd{
+                                        margin-left: 80px;
+                                        line-height: 0;
+                                        a{
+                                            display: inline-block;
+                                            color: #333333;
+                                            padding: 5px 8px 3px 0;
+                                            white-space: nowrap;
+                                            line-height: 1.1;
+                                            &:hover{
+                                                color: #eb5a41;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .all-classify-brand{
+                                width: 230px;
+                                float: left;
+                                .brand-title{
+                                    padding: 15px 0;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    text-align: center;
+                                    line-height: 0;
+                                }
+                                .brands-box{
+                                    margin-right: -10px;
+                                    height: 228px;
+                                    overflow: hidden;
+                                    li{
+                                        float: left;
+                                        width: 100px;
+                                        height: 45px;
+                                        padding: 7px 0;
+                                        background: #FFFFFF;
+                                        border: 1px solid #d1d1d1;
+                                        margin: 0 15px 15px 0;
+                                        text-align: center;
+                                        a{
+                                            img{
+                                                border: none;
+                                                width: 90px;
+                                                height: 45px;
+                                                vertical-align: bottom;
+                                                line-height: 0;
+                                                margin: -35px 0 0 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .brand-pic{
+                                    width: 219px;
+                                    height: 90px;
+                                    img{
+                                        width: 219px;
+                                        height: 90px;
+                                        vertical-align: bottom;
+                                        border: none;
+                                        line-height: 0;
+                                        margin-top: -23px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+        
+    }
+    ul{
+        float: left;
+        li{
+            float: left;
+            font-size: 16px;
+            line-height: 37px;
+            a{
+                color: #000;
+                padding:8px 31px;
+                &:hover{
+                    color:#eb5a41;
+                };
+
+            }
+            &:first-child{
+                a{
+                    padding:8px 31px 8px 0;
+                }
+            };
+        }
+        .house-home{
+            position: relative;
+            span{
+                display: inline-block;
+                width: 49px;
+                height: 16px;
+                position: absolute;
+                background: url(../img/xiji-files/free_nav_icon.png) no-repeat;
+            }
+        }
+    }
+
+}
+
+/*subscibe*/
+#subscibe{
+    height: 126px;
+    .subscibe-box{
+        width: $total-width;
+        margin:0 auto;
+        height: 46px;
+        padding:40px 0;
+        font-size: 14px;
+        line-height: 45px;
+        position: relative;
+        label{
+            color: #333;
+            width: 140px;
+            height: 45px;
+            float: left;
+        }
+        .subscibe-input1{
+            width: 420px;
+            height: 43px;
+            float: left;
+            color: #666;
+            padding:0 5px;
+            border:1px solid #D3D3D3;
+            line-height: 43px;
+            margin-left: 8px;
+        }
+        .subscibe-input2{
+            width: 60px;
+            height: 45px;
+            float: left;
+            color: #fff;
+            background: #212121;
+            padding:0 5px;
+            line-height: 45px;
+            cursor: pointer;
+            border:0;
+        }
+        .right-box{
+            height: 32px;
+            position: absolute;
+            right: 0px;
+            top: 47px;
+            img{
+                float: left;
+                display: inline-block;
+                margin:0 0 0 15px;
+            }
+        }
+    }
+}
+
+/*helper*/
+#helper{
+    background: #ebebeb;
+    height: 378px;
+    border-top: 1px solid #333;
+    .helper-box{
+        width: $total-width;
+        height: 333px;
+        margin:0 auto;
+        padding:45px 0;
+        .helper-left{
+            width: 665px;
+            float: left;
+            .helper-item{
+                margin-right: 10px;
+                width: 120px;
+                float: left;
+                dl{
+                    dt{
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                        color: #000;
+                    }
+                    dd{
+                        a{
+                            color: #666;
+                            line-height: 1.8;
+                            display: block;
+                            font-size: 12px;
+                            &:hover{
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .helper-center{
+            width: 265px;
+            padding:0 50px;
+            float: left;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            .center-title{
+                font-size: 14px;
+                color: #000;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 1.8;
+                color: #666;
+                a{
+                    color: #0563c3;
+                }
+                img{
+                    display: inline-block;
+                }
+            }
+        }
+        .helper-right{
+            width: 165px;
+            float: left;
+            text-align: center;
+            padding-top: 40px;
+            p{
+                margin-bottom: 10px;
+            }
+            img{
+                width: 83px;
+                height: 82px;
+                border:0;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+/*footer*/
+#footer{
+    height: 113px;
+    background: #ebebeb;
+    .footer-box{
+        width: $total-width;
+        height: 68px;
+        border-top: 1px solid #DDDDDD;
+        padding:30px 0 15px;
+        margin:0 auto;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.8;
+        p{
+            a{
+                margin:0 5px;
+                color: #000;
+                
+                img{
+                    display: inline-block;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+//top
+#top{
+    width: 48px;
+    height: 48px;
+    background: url(../img/xiji-files/right_top.png) 0 0 no-repeat;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}

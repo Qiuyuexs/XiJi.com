@@ -1,0 +1,448 @@
+#main {
+  width: 100%;
+  min-height: 4666px;
+  _height: 4666px;
+  background: #F5F5F5;
+}
+#main .main-con {
+  width: 1200px;
+  min-height: 4666px;
+  _height: 4666px;
+  margin: 0 auto;
+}
+#main .main-con .main-top {
+  height: 54px;
+}
+#main .main-con .main-top .top-con {
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 15px 0;
+}
+#main .main-con .main-top .top-con a {
+  color: #333;
+  text-align: center;
+}
+#main .main-con .main-left {
+  width: 250px;
+  height: 1154px;
+  border: 1px solid #e6e6e6;
+  float: left;
+  font-size: 14px;
+  background: #fff;
+}
+#main .main-con .main-left dl {
+  border-bottom: 1px solid #E6E6E6;
+}
+#main .main-con .main-left dl:last-child {
+  border-bottom: none;
+}
+#main .main-con .main-left dl:nth-of-type(3) {
+  height: 280px;
+}
+#main .main-con .main-left dl:nth-of-type(3) dd {
+  min-height: 231px;
+}
+#main .main-con .main-left dl:nth-of-type(4) {
+  height: 280px;
+}
+#main .main-con .main-left dl:nth-of-type(4) dd {
+  min-height: 231px;
+}
+#main .main-con .main-left dl dt {
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto;
+  float: none;
+  line-height: 50px;
+  height: 50px;
+  padding-left: 20px;
+  margin: 0;
+}
+#main .main-con .main-left dl dd {
+  padding: 0;
+  margin: 0px 5px 5px 0px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+#main .main-con .main-left dl dd span {
+  display: block;
+  padding-left: 17px;
+  margin: 0px 3px 4px 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 5px;
+}
+#main .main-con .main-left dl dd span a {
+  color: #666666;
+}
+#main .main-con .main-left dl dd span a:hover {
+  color: #eb5a41;
+}
+#main .main-con .main-left dl dd span:first-child a {
+  color: #eb5a41;
+}
+#main .main-con .main-left dl dd span input {
+  width: 45px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  border: 1px solid #ccc;
+}
+#main .main-con .main-left dl dd span .input-seq {
+  display: inline;
+  padding: 0;
+}
+#main .main-con .main-left dl dd span .s-true, #main .main-con .main-left dl dd span .s-false {
+  width: 32px;
+  height: 18px;
+  background: #fdfdfd;
+}
+#main .main-con .main-left dl dd span .s-true:hover, #main .main-con .main-left dl dd span .s-false:hover {
+  background: #eaeaea;
+}
+#main .main-con .main-left dl dd span .s-false {
+  margin-left: 4px;
+}
+#main .main-con .main-right {
+  width: 925px;
+  overflow: hidden;
+  float: right;
+  min-height: 670px;
+}
+#main .main-con .main-right .right-top {
+  width: 925px;
+  height: 95px;
+}
+#main .main-con .main-right .right-top ul {
+  margin-right: -15px;
+}
+#main .main-con .main-right .right-top ul li {
+  width: 220px;
+  height: 80px;
+  float: left;
+  margin: 0 15px 15px 0;
+  background-color: #eee;
+}
+#main .main-con .main-right .right-top ul li a img {
+  width: 220px;
+  height: 80px;
+  border: 0;
+}
+#main .main-con .main-right .right-center {
+  width: 925px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  background-color: #EBEBEB;
+  margin-bottom: 0px;
+}
+#main .main-con .main-right .right-center .center-left {
+  float: left;
+}
+#main .main-con .main-right .right-center .center-left a {
+  display: inline-block;
+  height: 40px;
+  width: 74px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+#main .main-con .main-right .right-center .center-left a:nth-of-type(2) {
+  width: 86px;
+}
+#main .main-con .main-right .right-center .center-left a:nth-of-type(3) {
+  width: 86px;
+}
+#main .main-con .main-right .right-center .center-left a:hover {
+  color: #EB5A41;
+}
+#main .main-con .main-right .right-center .center-center {
+  float: left;
+  padding: 11px 2px 8px 10px;
+}
+#main .main-con .main-right .right-center .center-center .ckb {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  float: left;
+}
+#main .main-con .main-right .right-center .center-center .ckb span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  background: url(../img/xiji-list/sprite_161129.png) no-repeat 0 -260px;
+}
+#main .main-con .main-right .right-center .center-center .ckb span input {
+  opacity: 0;
+  width: 19px;
+  height: 19px;
+}
+#main .main-con .main-right .right-center .center-center label {
+  float: left;
+  margin-right: 43px;
+  margin-left: 3px;
+  color: #666;
+  font-size: 12px;
+}
+#main .main-con .main-right .right-center .center-right {
+  float: right;
+  padding-top: 10px;
+}
+#main .main-con .main-right .right-center .center-right .page-count {
+  line-height: 18px;
+  text-align: right;
+  font-size: 12px;
+}
+#main .main-con .main-right .right-center .center-right .page-action {
+  margin-left: 10px;
+  line-height: 18px;
+  text-align: right;
+}
+#main .main-con .main-right .right-center .center-right .page-action a {
+  color: #ccc;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  padding: 1px 5px;
+  display: inline-block;
+  margin-left: 1px;
+  width: auto;
+  cursor: not-allowed;
+}
+#main .main-con .main-right .right-center .center-right .page-action a i {
+  color: #ccc;
+}
+#main .main-con .main-right .right-center .center-right .page-action a:nth-of-type(2) {
+  color: #0563C3;
+  cursor: auto;
+}
+#main .main-con .main-right .pageview {
+  text-align: center;
+  margin: 10px;
+  margin-top: 40px;
+  line-height: 20px;
+  font-size: 12px;
+  letter-spacing: -3px;
+}
+#main .main-con .main-right .pageview .flip {
+  border: 1px solid #ddd;
+  padding: 1px 8px;
+  color: #666;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: auto;
+  letter-spacing: 0;
+}
+#main .main-con .main-right .pageview .prev {
+  padding: 0 5px;
+}
+#main .main-con .main-right .pageview .active {
+  background-color: #212121;
+  border-color: #212121;
+  color: #fff;
+  font-weight: bold;
+}
+#main .main-con .main-right .pageview .over {
+  padding: 0 5px;
+  color: #ccc;
+  cursor: not-allowed;
+  background-color: #f3f3f3;
+}
+#main .product-list {
+  width: 911px;
+  margin-bottom: 0px;
+  border: 1px solid #E6E6E6;
+  border-top: none;
+  padding: 10px 6px 5px;
+  background: #fff;
+}
+#main .product-list ul {
+  width: 911px;
+}
+#main .product-list ul li {
+  float: left;
+  width: 215px;
+  border: 1px solid #fff;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 0 5px 10px;
+  transition-duration: 0.2s;
+}
+#main .product-list ul .goods-item-inner {
+  width: 185px;
+  background-color: #fff;
+  padding: 15px 10px 10px;
+}
+#main .product-list ul .goods-pic {
+  height: 195px;
+  width: 195px;
+  line-height: 158px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto 10px;
+  position: relative;
+}
+#main .product-list ul .goods-pic a {
+  display: block;
+  margin-bottom: 10px;
+  color: #0563C3;
+  line-height: 158px;
+}
+#main .product-list ul .goods-pic img {
+  visibility: visible;
+  opacity: 1;
+  height: 195px;
+  width: 195px;
+  max-height: 195px;
+  max-width: 195px;
+  margin: 0 auto;
+}
+#main .product-list ul .soldout-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 50%;
+  top: -50px;
+  left: -50px;
+  display: none;
+  line-height: 1.0;
+  background: url(../img/xiji-list/sps_icon_none_ch.png);
+  text-indent: -9999px;
+  background-size: 100%;
+  text-align: center;
+}
+#main .product-list ul .soldout-img a {
+  width: 100px;
+  height: 100px;
+  display: block;
+  text-indent: -99999px;
+  border: 0;
+  filter: none;
+  margin-bottom: 10px;
+  color: #0563C3;
+}
+#main .product-list ul .goods-info .time-block {
+  height: 22px;
+  margin-bottom: 5px;
+}
+#main .product-list ul .goods-info h3 {
+  height: 58px;
+  max-height: none;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+#main .product-list ul .goods-info h3 a {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #787878;
+  display: block;
+  margin-bottom: 10px;
+}
+#main .product-list ul .goods-info h3 a img {
+  width: 25px;
+  height: 16px;
+  vertical-align: -3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+#main .product-list ul .goods-info h3 a:hover {
+  text-decoration: underline;
+}
+#main .product-list ul .goods-tag-box {
+  height: 19px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  position: relative;
+}
+#main .product-list ul .goods-tag-box .shipping {
+  margin: 0;
+  color: #EB5A41;
+  border: 1px solid #EB5A41;
+  line-height: 1.2;
+  padding: 0 2px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 12px;
+}
+#main .product-list ul .tag-box {
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+#main .product-list ul .tag-box span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 188px;
+  display: inline-block;
+  color: #fff;
+  background-color: #F18164;
+  border: 1px solid #F18164;
+  font-size: 12px;
+  line-height: 16px;
+  height: 16px;
+  padding: 0 2px;
+}
+#main .product-list ul .btm-box {
+  position: relative;
+  color: #787878;
+}
+#main .product-list ul .btm-box .goods-price {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 36px;
+}
+#main .product-list ul .btm-box .goods-price ins {
+  font-size: 16px;
+  color: #28282E;
+  margin-left: 0;
+  font-weight: 900;
+  text-decoration: none;
+}
+#main .product-list ul .btm-box .goods-price ins .yen {
+  font-weight: normal;
+  font-size: 12px;
+}
+#main .product-list ul .btm-box .goods-price del {
+  display: inline;
+  font-size: 12px;
+  color: #999999;
+  clear: both;
+}
+#main .product-list ul .btm-box .goods-price del span {
+  color: #999;
+  font-size: 12px;
+}
+#main .product-list ul .btm-box a {
+  display: block;
+  border: 1px solid #EB5A41;
+  border-radius: 3px;
+  color: #EB5A41;
+  height: 32px;
+  width: 195px;
+  line-height: 32px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin: 8px 0 0 0;
+}
+#main .product-list ul .btm-box a:hover {
+  background: #EB5A41;
+  color: #fff;
+}
+
+/*# sourceMappingURL=xiji_list.css.map */
